@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Montserrat:ital@0;1&display=swap');
+
+/* 
+#281916 - Escuro
+#e86786 - Rosa Choque
+#f4a1b5 - Rosa Delicado
+#ffd2cb - Bege
+#96b5ad - Verde
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: fit-content;
+    height: fit-content;
+    font-family: 'Gowun Batang';
+    background-color: #ffe2dd;
+}
+
+header{
+    width: 100%;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #e86786 , #ffe2dd 99%);
+    position: sticky;
+    top: 0;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4vw;
+    min-width: 100px;
+}
+
+.botoes{
+    margin-right:  1%;
+    width: 350px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+a{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #281916; 
+    color: #281916;
+    font-weight: 900;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cima{
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video{
+    height: 400px;
+}
+
+.presentes{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    padding: 20px; 
+    border: 2px solid #281916; 
+}
+
+.presente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 20px;
+    height: 120px;
+    background: linear-gradient(to top, #c3e2da 1% , #ffe2dd);
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informações > a{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 630px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .botoes > a{
+        margin-right: 2%;
+    }
+
+    .cima{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    .presentes{
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media screen and (max-width: 1015px){
+    .presentes{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media screen and (max-width: 660px){
+    .presentes{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
