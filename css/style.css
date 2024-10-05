@@ -86,6 +86,10 @@ video{
     height: 400px;
 }
 
+.image-18 > img{
+    height: 400px;
+}
+
 .presentes{
     width: 80%;
     display: grid;
@@ -105,7 +109,7 @@ video{
 footer{
     padding: 20px;
     height: 120px;
-    background: linear-gradient(to top, #c3e2da 1% , #ffe2dd);
+    background: linear-gradient(to top, #d8afff 1% , #ffe2dd);
     display: flex;
     align-self: center;
     justify-content: space-between;
