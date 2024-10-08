@@ -108,12 +108,13 @@ video{
 
 .presente > p{
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-color: white;
 }
 
 .presente > a{
     padding: 1%;
+    font-size: 1.5rem;
     background-color: #96b5ad;
 }
 
