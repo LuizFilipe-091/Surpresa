@@ -22,7 +22,13 @@
     <main>
         <div class="cima" id="video">
             <div class="video">
-                <video src="imgs/video.mp4" controls></video>
+                <video controls autoplay>
+                    <source src="video.mp4" type="video/mp4">
+                    <source src="video.webm" type="video/webm">
+                    <source src="video.ogv" type="video/ogg">
+                    Seu navegador não suporta a reprodução de vídeos.
+                    <a href="video.mp4">Baixe o vídeo aqui</a>.
+                </video>
             </div>
             <div class="image-18">
                 <img src="imgs/18-anos.png" alt="">
