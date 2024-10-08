@@ -122,6 +122,26 @@ video{
     height: 60%;
 }
 
+.confirmar-presenca{
+    width: 82.6%;
+    margin-top: 1%;
+}
+
+.confirmar-presenca > a > button{
+    width: 100%;
+    padding: 1%;
+    background-color: #ffd2cb;
+    word-wrap: break-word;
+    font-family: 'Gowun Batang';
+    font-size: 2.5rem;
+    border: 5px solid #e86786; 
+    transition: 250ms ease-in;
+}
+
+.confirmar-presenca > a > button:hover{
+    background-color: #f4a1b5;
+}
+
 footer{
     padding: 20px;
     height: 120px;
