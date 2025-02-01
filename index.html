@@ -3,110 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRESENTES ANIVERSÁRIO</title>
+    <title>te amo.</title>
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
-        <div class="titulo">
-            <h1>Sugestão de Presentes</h1>
-        </div>
-        <div class="botoes">
-            <a href="#video">Ínicio</a>
-            <a href="#presentes">Presentes</a>
-            <a href="#contato">Contato</a>
-        </div>
-    </header>
+<body onload="start()">
     <main>
-        <div class="cima" id="video">
-            <div class="video">
-                <video controls autoplay>
-                    <source src="imgs/video.mp4" type="video/mp4">
-                    <source src="imgs/video.webm" type="video/webm">
-                    <source src="imgs/video.ogv" type="video/ogg">
-                    Seu navegador não suporta a reprodução de vídeos.
-                    <a href="imgs/video.mp4">Baixe o vídeo aqui</a>.
-                </video>
+            <div class="titulo">
+                <h1>AMANDO À</h1>
             </div>
-            <div class="image-18">
-                <img src="imgs/18-anos.png" alt="">
+            <div class="foto">
+                <img src="imgs/foto.jpg" alt="">
             </div>
-        </div>
-        <div class="presentes" id="presentes">
-            <div class="presente">
-                <img src="imgs/kit-francine.png" alt="">
-                <h2>Kit Francine Elkhe</h2>
-                <p>R$ 94,99</p>
-                <a href="https://nubank.com.br/cobrar/mljm9/67047d91-3160-4ce8-bbda-1e7d51818254 " target="_blank">COMPRAR</a>
+            <div class="temporizador">
+                <p id="timer"></p>
             </div>
-            <div class="presente">
-                    <img src="imgs/hidratante.png" alt="">
-                    <h2>Hidratante Corporal Skelt</h2>
-                    <p>R$ 89,01</p>
-                    <a href="https://nubank.com.br/cobrar/mljm9/67047dba-8ef5-4b50-b791-cb7bed0b6499 " target="_blank">COMPRAR</a>
-            </div>
-            <div class="presente">
-                <img src="imgs/hidra-glow.png" alt="">
-                <h2>Hidra Glow</h2>
-                <p>R$ 79,99</p>
-                <a href="https://nubank.com.br/cobrar/mljm9/67047de0-ee3e-4cfe-a133-2a5a7c0312f2 " target="_blank">COMPRAR</a>
-            </div>
-            <div class="presente">
-                <img src="imgs/kerastase.png" alt="">
-                <h2>Elixir Kerastase</h2>
-                <p>R$ 221,90</p>
-                <a href="https://nubank.com.br/cobrar/mljm9/67047e06-35cf-4c11-b936-1efd83b41ac4 " target="_blank">COMPRAR</a>
-            </div>
-            <div class="presente">
-                <img src="imgs/crush.png" alt="">
-                <h2>Perfume Sol de Janeiro</h2>
-                <p>R$ 189,00</p>
-                <a href="https://nubank.com.br/cobrar/mljm9/67047e2f-d9eb-45b2-866c-556fa936763b " target="_blank">COMPRAR</a>
-            </div>
-            <div class="presente">
-                <img src="imgs/cruzeiro.png" alt="">
-                <h2>Camisa 1 Cruzeiro 23/24</h2>
-                <p>R$ 149,99</p>
-                <a href="https://nubank.com.br/cobrar/mljm9/67047e4d-b583-42e9-a155-3cf9fe498f1e " target="_blank">COMPRAR</a>
-            </div>
-            <div class="presente">
-                <img src="imgs/vale.png" alt="">
-                <h2>Vale 50$</h2>
-                <p>R$ 50,00</p>
-                <a href="https://nubank.com.br/cobrar/mljm9/67054732-b635-4e51-a4e9-24da21c5fef6 " target="_blank">COMPRAR</a>
-            </div>
-            <div class="presente">
-                <img src="imgs/vale.png" alt="">
-                <h2>Vale 70$</h2>
-                <p>R$ 70,00</p>
-                <a href="https://nubank.com.br/cobrar/mljm9/67054481-f344-44ae-b503-ba07bad92fee " target="_blank">COMPRAR</a>
-            </div>
-            <div class="presente">
-                <img src="imgs/vale.png" alt="">
-                <h2>Vale 100$</h2>
-                <p>R$ 100,00</p>
-                <a href="
-                https://nubank.com.br/cobrar/mljm9/67054753-5770-49c5-868d-49e38da0a38b " target="_blank">COMPRAR</a>
-            </div>
-        </div>
-        <div class="confirmar-presenca">
-            <a href="https://api.whatsapp.com/send?phone=+553198428642&&text=Olá%20Dayane!%20Estou%20muito%20feliz%20em%20confirmar%20minha%20presença%20no%20aniversário%20de%2018%20anos%20da%20Maria%20Clara!%20Mal%20posso%20esperar%20para%20comemorar%20esse%20momento%20tão%20especial%20com%20vocês.%20Até%20lá!" target="_blank">
-                <button>Confirmar Presença</button>
-            </a>
-        </div>
     </main>
-    <footer>
-        <div class="contato" id="contato">
-            <div class="informações">
-                <h1>Para qualquer dúvida contatar:</h1>
-                <p>Dayane Alves De Santana</p>
-                <a href="https://wa.me/553198428642" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
-                <a href="https://www.instagram.com/day1985santana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
-            </div>
-    </div>
-</footer>
 </body>
 <script src="js/script.js"></script>
 </html>
